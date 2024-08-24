@@ -15,6 +15,13 @@ The web scraping is implemented using Selenium. The script dynamically handles p
 - **Navigating Pages**: The scraper starts from the first page and navigates through all available pages up to there are no more pages.
 - **Data Storage**: Saves the extracted data repeatedly for every page into a single HTML file.
 
+## Data Fetching
+This Webscrapped data is directly available on github along with notebooks for Data Cleaning and EDA, if you directly want to use data in jupyter notebook then write following code:
+```bash
+pip3 install kaggle
+!kaggle datasets download -d dilkushsingh/smartphones-dataset-upto-july24
+```
+
 ## Prerequisites
 
 Ensure you have the following installed:
